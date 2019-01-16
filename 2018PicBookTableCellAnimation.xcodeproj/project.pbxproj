@@ -12,6 +12,8 @@
 		DD20AD6621EEB47800BAE887 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD20AD6421EEB47800BAE887 /* Main.storyboard */; };
 		DD20AD6821EEB47B00BAE887 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD20AD6721EEB47B00BAE887 /* Assets.xcassets */; };
 		DD20AD6B21EEB47B00BAE887 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD20AD6921EEB47B00BAE887 /* LaunchScreen.storyboard */; };
+		DD20AD7321EED66200BAE887 /* PictureBookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20AD7221EED66200BAE887 /* PictureBookTableViewController.swift */; };
+		DD20AD7721EED8F200BAE887 /* PictureBookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20AD7621EED8F200BAE887 /* PictureBookTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DD20AD6721EEB47B00BAE887 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD20AD6A21EEB47B00BAE887 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD20AD6C21EEB47B00BAE887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD20AD7221EED66200BAE887 /* PictureBookTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureBookTableViewController.swift; sourceTree = "<group>"; };
+		DD20AD7621EED8F200BAE887 /* PictureBookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureBookTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				DD20AD6021EEB47800BAE887 /* AppDelegate.swift */,
 				DD20AD6221EEB47800BAE887 /* ViewController.swift */,
 				DD20AD6421EEB47800BAE887 /* Main.storyboard */,
+				DD20AD7221EED66200BAE887 /* PictureBookTableViewController.swift */,
+				DD20AD7621EED8F200BAE887 /* PictureBookTableViewCell.swift */,
 				DD20AD6721EEB47B00BAE887 /* Assets.xcassets */,
 				DD20AD6921EEB47B00BAE887 /* LaunchScreen.storyboard */,
 				DD20AD6C21EEB47B00BAE887 /* Info.plist */,
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD20AD6321EEB47800BAE887 /* ViewController.swift in Sources */,
+				DD20AD7321EED66200BAE887 /* PictureBookTableViewController.swift in Sources */,
 				DD20AD6121EEB47800BAE887 /* AppDelegate.swift in Sources */,
+				DD20AD7721EED8F200BAE887 /* PictureBookTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
